@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="starter.wikipedia.WhenSearchingForTerms" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-06T11:36:01" hostname="UKC-DSEV023991" time="19.857">
+  <properties/>
+  <testcase name="searchBySingleKeyword()" classname="starter.wikipedia.WhenSearchingForTerms" time="19.857"/>
+  <system-out><![CDATA[11:36:01.638 [Test worker] INFO  n.s.c.w.d.DriverProvider - Using automatically driver download
+11:36:06.359 [Test worker] INFO  n.s.c.w.d.ChromeDriverProvider - Starting Chrome driver instance with capabilities:
+11:36:06.374 [Test worker] INFO  n.s.c.w.d.ChromeDriverProvider - Capabilities {browserName: chrome, goog:chromeOptions: {args: [headless], extensions: []}}
+[?[35mpercy?[39m] Percy is not running, disabling snapshots
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 31413
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 06, 2023 11:36:10 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 108
+Jan 06, 2023 11:36:10 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.5.3` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+</testsuite>
